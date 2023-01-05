@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    
 }
 
 header{
@@ -101,6 +102,7 @@ main{
 }
 .what-i-do{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 .skills-container{
     display: flex;
@@ -122,22 +124,43 @@ main{
 .skill_description{
     color: #757575;
 }
+
 .resume-item{
     margin-top: 30px;
     margin-bottom: 30px;
-}
+}  
+
 .resume-content{
     display: flex;
-    gap: 24px;
+    gap: 100px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.20);
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 25px;
 }
-.resume .title{
-font-weight: 700;
-font-size: 50spx;
-color: #474747; 
-
-}
-.resume .sub-title{
-    color: #474747;
+.resume-title{
     font-weight: 700;
-    font-size: 20px;
-}
+    font-size: 25px;
+    color: #474747;
+    }
+    .title{
+        color: #474747;
+        font-weight: 700;
+       
+       
+    
+    }
+    .sub-title{
+        color: #474747;
+        font-weight: 700;
+        font-size: 20px;
+       
+    }
+    .description{
+        color:#757575;
+    }
+    .btn-cv{
+        margin-top: 50px;
+        text-align: center;
+    }
